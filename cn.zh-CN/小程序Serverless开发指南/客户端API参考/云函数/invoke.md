@@ -7,14 +7,7 @@
 该方法的定义如下：
 
 ``` {#codeblock_3x9_6ef_9rs}
-mpserverless.function.invoke(target: string, arg: {
-  method: string,
-  path?: string,
-  header?: object,
-  params?: object,
-  query?: object,
-  body?: object,
-}): Promise<Result>
+mpserverless.function.invoke(handlerName: string, options?: object): Promise<Result>
 ```
 
 ## 请求参数 {#section_9dt_1s5_1az .section}
@@ -44,19 +37,10 @@ mpserverless.function.invoke(target: string, arg: {
 ## 示例 {#section_bi5_kb6_iwb .section}
 
 ``` {#codeblock_shh_qv2_pqj}
-mpserverless.function.invoke('appservice2', {
-  method: 'GET',
-  path: '/requestId',
-  header: {
-      'content-type': 'application/json',
-  },
-  params: {},
-  query: {},
-  body: {},
-}).then(res => {
-  console.log(res.result.requestId);
-}).catch(err => {
-  console.error(err);
-});
+mpserverless.function.invoke('dataAnalytics', {
+    range: 30,
+}).then((res) => {
+  console.log(res);
+}).catch(console.error);
 ```
 
