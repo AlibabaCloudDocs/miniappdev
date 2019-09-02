@@ -12,7 +12,7 @@ mpserverless.user.getInfo(options: string): Promise<Result>
 
 ## 请求参数 {#section_9dt_1s5_1az .section}
 
-该方法不需要传递请求参数。
+该方法接收以下请求参数。
 
 |字段名|类型|必填|说明|
 |---|--|--|--|
