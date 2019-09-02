@@ -49,7 +49,7 @@
     ```
 
 
-## 在微信小程序中使用小程序云SDK {#section_79b_gay_ywk .section}
+## 在微信小程序中使用SDK {#section_79b_gay_ywk .section}
 
 完成以下操作，在微信小程序中使用小程序云SDK：
 
