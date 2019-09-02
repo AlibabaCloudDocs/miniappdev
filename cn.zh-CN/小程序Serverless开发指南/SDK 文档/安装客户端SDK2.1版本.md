@@ -60,7 +60,7 @@
         -   如果将authType设置为anonymous，则不需要设置authProvider。
         -   如果没有设置authType，则必须设置authProvider。
 
-## 在微信小程序中使用小程序云SDK {#section_79b_gay_ywk .section}
+## 在微信小程序中使用SDK {#section_79b_gay_ywk .section}
 
 完成以下操作，在微信小程序中使用小程序云SDK：
 
