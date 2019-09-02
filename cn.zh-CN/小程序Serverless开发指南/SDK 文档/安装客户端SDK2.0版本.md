@@ -20,12 +20,8 @@
     const serverless = new MPServerless({
       uploadFile: my.uploadFile,
       request: my.request, 
-      getAuthCode: my.getAuthCode || function (options) {
-        // 通过授权页面拿到授权 code
-        const code = getAuthCodeByAuthorizePage(options);
-        options.complete({ authCode: code });
-      },
-    }, {
+      getAuthCode: my.getAuthCode
+      }, {
       appId: '1234456789', // 小程序应用标识
       spaceId: 'db4dd657-7041-470a-90xxxxx', // 服务空间标识
       clientSecret: '6c3c86xxxx6', // 服务空间 secret key
