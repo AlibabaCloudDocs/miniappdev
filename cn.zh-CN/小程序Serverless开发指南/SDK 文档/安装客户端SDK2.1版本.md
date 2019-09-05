@@ -60,7 +60,7 @@
 
 完成以下操作，在微信小程序中使用小程序云SDK：
 
-1.  单击[这里](https://mpserverless-sdk.oss-cn-shanghai.aliyuncs.com/2.0.0-alpha.3/mpserverless.js)下载SDK文件。
+1.  单击[这里](https://mpserverless-sdk.oss-cn-shanghai.aliyuncs.com/2.1.2/mpserverless.js)下载SDK文件。
 2.  将下载后的mpserverless.js文件添加到小程序项目目录下，然后在app.js或其他需要的页面中引入SDK文件。 
 
     ``` {#codeblock_mbw_bpn_p5d}
@@ -86,17 +86,6 @@
     -   appId是小程序的ID。您可以在[微信公众平台](https://mp.weixin.qq.com)获取小程序的App ID。
     -   spaceIdclientSecret和endpoint在小程序Serverless控制台创建服务空间后可以获得。详情参见[创建服务空间](cn.zh-CN/小程序Serverless开发指南/服务空间管理/创建服务空间.md#)。
 3.  调用user.authorize方法完成授权 
-
-    ``` {#codeblock_3xr_ve7_sz4}
-    const res = await mpServerless.user.authorize({
-      authProvider: 'wechat_openapi'
-    });
-    if (res.success) {
-      console.log('授权成功');
-    }
-    ```
-
-4.  调用user.authorize方法完成授权 
 
     ``` {#codeblock_vo3_bpl_ewz}
     const res = await mpServerless.user.authorize({
