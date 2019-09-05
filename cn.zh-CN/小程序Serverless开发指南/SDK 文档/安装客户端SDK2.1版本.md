@@ -38,7 +38,6 @@
     ``` {#codeblock_4v6_kv5_nvq}
     const res = await mpServerless.user.authorize({
       authProvider: 'alipay_openapi'
-      authType：'anonymous'
     });
     if (res.success) {
       console.log('授权成功');
@@ -90,7 +89,6 @@
     ``` {#codeblock_vo3_bpl_ewz}
     const res = await mpServerless.user.authorize({
       authProvider: 'wechat_openapi'
-      authType：'anonymous'
     });
     if (res.success) {
       console.log('授权成功');
