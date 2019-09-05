@@ -9,7 +9,7 @@
 1.  在支付宝小程序项目的根目录执行以下命令安装SDK。 
 
     ``` {#codeblock_ngn_0es_fmj}
-    npm install @alicloud/mpserverless-sdk@2.1.0 --save
+    npm install @alicloud/mpserverless-sdk@2.1.2 --save
     ```
 
 2.  在小程序项目中添加以下代码，初始化SDK。 
