@@ -14,15 +14,15 @@ queryFaceVerified(params: QueryFaceVerifiedRequest): Promise<FunctionResponse<
 
 |字段名|类型|必填|说明|
 |---|--|--|--|
-|bizId|string|是|业务单据号，随机生成的一个唯一字符串，如：`+new Date()` 生成的字符串，可用于排查问题|
-|zimId|string|是|刷脸认证标识，能通过 my.ap.faceVerify JSAPI 进行获取|
-|externParam|object|否|扩展参数|
+|bizId|string|是|业务单据号，随机生成的一个唯一字符串，如：`+new Date()` 生成的字符串，可用于排查问题。|
+|zimId|string|是|刷脸认证标识，能通过 my.ap.faceVerify API进行获取|
+|externParam|object|否|扩展参数。|
 
 ## 返回参数 {#section_21x_l3v_78f .section}
 
 |字段名|类型|说明|
 |---|--|--|
-|externInfo|string|扩展结果|
+|externInfo|string|扩展结果。|
 
 ## 示例 {#section_h4a_pp9_91i .section}
 
