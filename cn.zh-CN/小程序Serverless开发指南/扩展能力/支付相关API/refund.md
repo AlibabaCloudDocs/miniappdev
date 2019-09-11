@@ -14,8 +14,8 @@ refund(params: RefundRequest): Promise<FunctionResponse<RefundResponse>>
 
 |字段名|类型|必填|描述|
 |---|--|--|--|
-|outTradeNo|string|是|商家订单号，用于商家唯一确定一笔交易，如：`+new Date()`，64个字符以内，只能包含字母、数字、下划线|
-|refundAmount|string|是|退款金额|
+|outTradeNo|string|是|商家订单号，用于商家唯一确定一笔交易，如：`+new Date()`，64个字符以内，只能包含字母、数字、下划线。|
+|refundAmount|string|是|退款金额。|
 
 ## 返回参数 {#section_ux3_a81_zvn .section}
 
