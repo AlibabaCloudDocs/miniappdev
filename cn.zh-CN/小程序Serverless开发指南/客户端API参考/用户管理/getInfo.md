@@ -28,7 +28,7 @@ mpserverless.user.getInfo(options: string): Promise<Result>
 |success|Boolean|操作是否成功。|
 |result|Object|用户信息： -   spaceId\{String\}：服务空间ID。
 -   userId\{String\}：用户ID。
--   AuthUserId\{String\}：客户端类型。只有指定了authProvider时才会返回该参数。
+-   oAuthUserId\{String\}：三方授权用户标识。只有指定了authProvider时才会返回该参数。
 
  |
 
