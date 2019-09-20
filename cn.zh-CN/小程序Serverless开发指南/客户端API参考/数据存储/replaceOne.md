@@ -32,6 +32,6 @@ mpserverless.db.collection('users')
     name: 'jerry'
 })
 .then(res => {})
-.error(console.error);
+.catch(console.error);
 ```
 
