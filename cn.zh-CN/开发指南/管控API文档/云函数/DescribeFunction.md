@@ -21,7 +21,7 @@
 |Deployment|Struct| |部署单详情。 |
 |CreatedAt|String|2019-06-11T10:51:19.069Z|创建时间。 |
 |DeploymentId|String|5cff17271c9d4401e92081c8|部署单ID。 |
-|DownloadSignedUrl|String|http://bucket.oss-cn-shanghai.aliyuncs.com/xxxx-v2.zip?OSSAccessKeyId=LTAIKC\*\*\*\*\*1DkK6&Expires=1561425220&Signature=xEuiAgUMShQ4v8fYIl3FM8Jp3MA%3D|下载URL。 |
+|DownloadSignedUrl|String|http://bucket.oss-cn-shanghai.aliyuncs.com/xxxx-v2.zip?OSSAccessKeyId=LT\*\*\*\*\*\*\*\*\*1DkK6&Expires=1561425220&Signature=xEuiAgUMShQ4v8fYIl3FM8Jp3MA%3D|下载URL。 |
 |ModifiedAt|String|2019-06-11T10:51:19.069Z|修改时间。 |
 |VersionNo|String|2019061110511905080|版本号。版本号是部署单上传的时间。 |
 |Function|Struct| |云函数信息。 |
@@ -74,7 +74,7 @@ http(s)://[Endpoint]/?Action=DescribeFunction
     <VersionNo>5</VersionNo>
     <CreatedAt>2019-06-10T02:33:16.674Z</CreatedAt>
     <ModifiedAt>2019-06-10T02:33:16.674Z</ModifiedAt>
-    <DownloadSignedUrl>http://function-apiserver-test.oss-cn-shanghai.aliyuncs.com/fc-source/fun-xxxxx-v1.tgz?OSSAccessKeyId=LTAIKCq5xHz1DkK6&amp;Expires=1559805752&amp;Signature=BXyrc9Nrsvw7j53HxtkLoGkDhDI%3D</DownloadSignedUrl>
+    <DownloadSignedUrl>http://function-apiserver-test.oss-cn-shanghai.aliyuncs.com/fc-source/fun-xxxxx-v1.tgz?OSSAccessKeyId=LT*********1DkK6&amp;Expires=1559805752&amp;Signature=BXyrc9Nrsvw7j53HxtkLoGkDhDI%3D</DownloadSignedUrl>
 </Deployment>
 ```
 
@@ -102,7 +102,7 @@ http(s)://[Endpoint]/?Action=DescribeFunction
         "VersionNo": "5",
         "CreatedAt": "2019-06-10T02:33:16.674Z",
         "ModifiedAt": "2019-06-10T02:33:16.674Z",
-        "DownloadSignedUrl": "http://function-apiserver-test.oss-cn-shanghai.aliyuncs.com/fc-source/fun-xxxxx-v1.tgz?OSSAccessKeyId=LTAIKCq5xHz1DkK6&Expires=1559805752&Signature=BXyrc9Nrsvw7j53HxtkLoGkDhDI%3D"
+        "DownloadSignedUrl": "http://function-apiserver-test.oss-cn-shanghai.aliyuncs.com/fc-source/fun-xxxxx-v1.tgz?OSSAccessKeyId=LT*********1DkK6&Expires=1559805752&Signature=BXyrc9Nrsvw7j53HxtkLoGkDhDI%3D"
     }
 }
 ```
