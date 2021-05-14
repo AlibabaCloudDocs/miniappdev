@@ -18,6 +18,7 @@
  **说明：** 云函数的名称必须和要上传的Node.js代码包名称一致。 |
 |SpaceId|String|是|dece4ea0-d432-4cfa-8514-xxxxx|云函数所属的服务空间ID。 |
 |Desc|String|否|测试函数|云函数的描述信息。 |
+|Runtime|String|否|nodejs8|云函数执行环境，可选值nodejs8,nodejs12。 |
 
 ## 返回数据
 
@@ -80,10 +81,4 @@ http(s)://[Endpoint]/?Action=CreateFunction
   "Name": "sayHello"
 }
 ```
-
-## 错误码
-
-访问[错误中心](https://error-center.aliyun.com/status/product/MPServerless)查看更多错误码。
-
-访问[错误中心](https://error-center.alibabacloud.com/status/product/MPServerless)查看更多错误码。
 
