@@ -19,6 +19,7 @@
 |HttpTriggerPath|String|否|/http/hello|HTTP触发的路径，设置为空字符串表示取消该功能。必须以`/http`开头，不能以`/`结尾，同一个Space下不允许重复，只支持（/）、（-）、（\_）、（.）、字母和数字组合，最长不超过128个字符。 |
 |TimingTriggerConfig|String|否|cron:0 0 \* \* \* \*|定时触发配置，设置为空字符串表示取消该功能，配置规则请参见[使用云函数定时触发功能](https://help.aliyun.com/document_detail/160666.htm)。 |
 |InstanceConcurrency|Integer|否|1|单实例允许的最大并发度，默认值为1，取值范围1-100。设置单实例多并发可以降低冷启动的频率，适用于函数中有较多时间在等待下游服务响应的场景，不适用于函数中有共享状态且不能并发访问的场景，也不适用于单个请求的执行要消耗大量CPU及内存资源的场景。 |
+|Runtime|String|否|nodejs8|云函数执行环境，可选值nodejs8,nodejs12。 |
 
 ## 返回数据
 
